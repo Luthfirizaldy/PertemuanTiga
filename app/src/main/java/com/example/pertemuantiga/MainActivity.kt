@@ -53,6 +53,12 @@ fun BasicCompose(
                 color = Color.Red,
             )
         )
+        Text(
+            text = "0",
+            fontWeight = FontWeight.Bold,
+            fontSize = 50.sp,
+        )
+
     }
 }
 
