@@ -69,6 +69,12 @@ fun BasicCompose(
             fontWeight = FontWeight.Bold,
             fontSize = 40.sp,
         )
+        Text(
+            text = "Nurachmad Luthfi Rizaldy",
+            fontWeight = FontWeight.Bold,
+            fontSize = 30.sp,
+            color = Color.Blue,
+        )
     }
 }
 
