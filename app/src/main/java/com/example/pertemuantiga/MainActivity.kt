@@ -64,6 +64,11 @@ fun BasicCompose(
         Image(painter = painterResource(id =R.drawable.fifa),
             contentDescription = null
         )
+        Text(
+            text = "NAMA",
+            fontWeight = FontWeight.Bold,
+            fontSize = 40.sp,
+        )
     }
 }
 
