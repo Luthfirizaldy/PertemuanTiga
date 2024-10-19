@@ -75,6 +75,12 @@ fun BasicCompose(
             fontSize = 30.sp,
             color = Color.Blue,
         )
+        Text(
+            text = "20200140016",
+            fontWeight = FontWeight.Bold,
+            fontSize = 25.sp,
+            color = Color.Green,
+        )
     }
 }
 
