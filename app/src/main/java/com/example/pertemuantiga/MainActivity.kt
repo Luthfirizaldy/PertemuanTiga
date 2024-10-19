@@ -20,8 +20,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             PertemuanTigaTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    Greeting(
-                        name = "Android",
+                    BasicCompose(
                         modifier = Modifier.padding(innerPadding)
                     )
                 }
@@ -29,7 +28,7 @@ class MainActivity : ComponentActivity() {
         }
     }
 }
-
+@Preview(showBackground = true)
 @Composable
 fun BasicCompose(){}
 
