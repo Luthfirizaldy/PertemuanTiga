@@ -81,6 +81,9 @@ fun BasicCompose(
             fontSize = 25.sp,
             color = Color.Green,
         )
+        Image(painter = painterResource(id = R.drawable.fotoku),
+            contentDescription = null
+        )
     }
 }
 
